@@ -11,6 +11,11 @@ However, we currently support up to three template variables:
   * `{{ date }}` := the date of the license (typically just a provided year)
   * `{{ project }}` := the name of the project
 
+# File Headers
+We currently do not support file headers for licenses in licensify. Because of this, we do not
+provide a set of headers. However, the tool is designed to expandable in both features and licenses
+so adding this feature and these license snippets should be pretty easy.
+
 # License
 This set of templates is under the MIT license. See LICENSE for more details. This may change in
 the future.
