@@ -8,7 +8,7 @@ Not every template accepts a set of variables as per their parent organizations 
 However, we currently support up to three template variables:
   
   * `{{ organization }}` := the person/organization that holds the copyright of a license
-  * `{{ date }}` := the date of the license (typically just a provided year)
+  * `{{ year }}` := the year/date of the license (typically just a provided year)
   * `{{ project }}` := the name of the project
 
 # File Headers
